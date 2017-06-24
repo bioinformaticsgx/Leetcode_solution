@@ -53,8 +53,7 @@ public class Solution {
             sarray[listpos.get(j)] = listvow.get(j);
         }
         
-        String y = new String(sarray);
-        return y;
+        return new String(sarray);
     }
 }    
     
