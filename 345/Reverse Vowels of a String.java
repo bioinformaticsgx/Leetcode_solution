@@ -8,7 +8,7 @@ public String reverseVowels(String s) {
     int start = 0;
     int end = s.length()-1;
     while(start<end){
-        
+//         This is key! Using while loop until find chars containing "aeiou"
         while(start<end && !vowels.contains(chars[start]+"")){
             start++;
         }
@@ -30,8 +30,7 @@ public String reverseVowels(String s) {
         
         
 // My solutions:
-
-        public class Solution {
+public class Solution {
     public String reverseVowels(String s) {
         
         List<Integer> listpos = new ArrayList<Integer>();
@@ -54,6 +53,10 @@ public String reverseVowels(String s) {
             sarray[listpos.get(j)] = listvow.get(j);
         }
         
-        return new String(sarray);
+        String y = new String(sarray);
+        return y;
     }
-}
+}    
+    
+    
+
