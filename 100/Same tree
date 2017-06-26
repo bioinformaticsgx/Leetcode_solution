@@ -1,1 +1,4 @@
 Problem of null for trees
+
+NullPointer
+Some nodes are already null, but still request .val, then error
